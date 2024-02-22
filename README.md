@@ -52,7 +52,7 @@ This project aims to create a robust and user-friendly CCTV monitoring system wi
     - Users can restore/export the database.
 
 16. **Seamless Background Processing:**
-    - Background tasks without affecting the user interface.
+    - Background tasks while minimzing the user interface.
 
 17. **Video Streaming without Analytics:**
     - Users can stream video without analytical features.
