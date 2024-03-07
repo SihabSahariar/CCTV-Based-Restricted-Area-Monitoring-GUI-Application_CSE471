@@ -1,0 +1,41 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/checked_user_male_96px.png</file>
+    <file>icon/nocam.png</file>
+    <file>icon/1662003272515.jpg</file>
+    <file>icon/1679370685170 (2).jpeg</file>
+    <file>icon/about_96px.png</file>
+    <file>icon/bullet_camera_96px.png</file>
+    <file>icon/critical_thinking_64px.png</file>
+    <file>icon/dome_camera_80px.png</file>
+    <file>icon/ecg_48px.png</file>
+    <file>icon/face_id_96px.png</file>
+    <file>icon/fingerprint_scan_80px.png</file>
+    <file>icon/home_100px.png</file>
+    <file>icon/live_video_on_48px.png</file>
+    <file>icon/logo.jpg</file>
+    <file>icon/Logout_80px.png</file>
+    <file>icon/motion_detector_64px.png</file>
+    <file>icon/multiple_devices_48px.png</file>
+    <file>icon/people_80px.png</file>
+    <file>icon/play_60px.png</file>
+    <file>icon/rec_normal.ico</file>
+    <file>icon/rec_recording.ico</file>
+    <file>icon/record_96px.png</file>
+    <file>icon/Untitled-1.png</file>
+    <file>icon/wall_mount_camera_64px.png</file>
+    <file>icon/workspace_100px.png</file>
+    <file>icon/critical_thinking_64px.png</file>
+    <file>icon/Untitled-1.png</file>
+    <file>icon/dome_camera_80px.png</file>
+    <file>icon/ecg_48px.png</file>
+    <file>icon/home_100px.png</file>
+    <file>icon/live_video_on_48px.png</file>
+    <file>icon/multiple_devices_48px.png</file>
+    <file>icon/play_60px.png</file>
+    <file>icon/wall_mount_camera_64px.png</file>
+    <file>icon/workspace_100px.png</file>
+    <file>icon/rec_normal.ico</file>
+    <file>icon/rec_recording.ico</file>
+  </qresource>
+</RCC>
