@@ -1,0 +1,5 @@
+#ENVIRONMENT 
+.env 
+
+#DEBUG DB FILE
+cameras.db
