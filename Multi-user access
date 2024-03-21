@@ -5,7 +5,7 @@ def authenticate_user(username, password):
     query.prepare("SELECT role FROM users WHERE username = :username AND password = :password")
     query.bindValue(":username", username)
     query.bindValue(":password", password)
-    if query.exec_() and query.next():
+    if query.exec() and query.next():
         return query.value(0)  # Return user's role if authenticated
     else:
         return None
