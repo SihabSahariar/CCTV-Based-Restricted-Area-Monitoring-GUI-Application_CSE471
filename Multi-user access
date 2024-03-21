@@ -1,0 +1,37 @@
+#  have a database table named 'users' with columns 'username', 'password', and 'role'
+
+def authenticate_user(username, password):
+    query = QSqlQuery()
+    query.prepare("SELECT role FROM users WHERE username = :username AND password = :password")
+    query.bindValue(":username", username)
+    query.bindValue(":password", password)
+    if query.exec_() and query.next():
+        return query.value(0)  # Return user's role if authenticated
+    else:
+        return None
+
+def check_permission(user_role, action):
+    # Define permissions for different roles
+    permissions = {
+        'Admin': ['add_camera', 'delete_camera', 'update_camera', 'view_live_stream'],
+        'Viewer': ['view_live_stream'],
+        'Operator': ['add_camera', 'delete_camera', 'update_camera'],
+        'Supervisor': ['view_live_stream', 'manage_users'],
+        'Guest': ['view_live_stream'],
+    }
+    return action in permissions.get(user_role, [])
+
+# Example usage:
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+user_role = authenticate_user(username, password)
+if user_role:
+    #print("Login successful! User role:", user_role)
+    action = input("Enter action to perform: ")
+    if check_permission(user_role, action):
+        print("User has permission to perform action.")
+    else:
+        print("User does not have permission to perform action.")
+else:
+    print("Invalid username or password.")
