@@ -7,6 +7,7 @@ class RegistrationForm(QtWidgets.QDialog):
         self.initUI()
 
     def initUI(self):
+        self.resize(300, 200)
         layout = QtWidgets.QVBoxLayout()
 
         self.nameField = QtWidgets.QLineEdit(self)

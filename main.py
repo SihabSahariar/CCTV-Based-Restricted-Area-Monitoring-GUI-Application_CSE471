@@ -1,4 +1,3 @@
-# main.py
 import sys
 from PyQt6 import QtWidgets
 from model.db import CameraDB
@@ -11,6 +10,7 @@ class MainWindow(QtWidgets.QWidget):
         self.initUI()
 
     def initUI(self):
+        self.resize(300, 200)
         layout = QtWidgets.QVBoxLayout()
         regButton = QtWidgets.QPushButton('Register New Camera', self)
         regButton.clicked.connect(self.openRegistrationForm)
