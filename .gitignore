@@ -3,3 +3,7 @@
 
 #DEBUG DB FILE
 cameras.db
+
+#FOLDERS
+ByteTrack/
+Test/

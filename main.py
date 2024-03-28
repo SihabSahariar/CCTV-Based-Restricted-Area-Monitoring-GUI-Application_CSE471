@@ -1,9 +1,15 @@
 import sys
-from PyQt6 import QtWidgets
+from PyQt6.QtWidgets import (
+    QApplication,
+    QWidget,
+    QVBoxLayout,
+    QPushButton,
+    QPushButton
+)
 from model.db import CameraDB
 from view.registration_form import RegistrationForm
 
-class MainWindow(QtWidgets.QWidget):
+class MainWindow(QWidget):
     def __init__(self, db):
         super().__init__()
         self.db = db
@@ -11,8 +17,8 @@ class MainWindow(QtWidgets.QWidget):
 
     def initUI(self):
         self.resize(300, 200)
-        layout = QtWidgets.QVBoxLayout()
-        regButton = QtWidgets.QPushButton('Register New Camera', self)
+        layout = QVBoxLayout()
+        regButton = QPushButton('Register New Camera', self)
         regButton.clicked.connect(self.openRegistrationForm)
         layout.addWidget(regButton)
         self.setLayout(layout)
@@ -22,8 +28,9 @@ class MainWindow(QtWidgets.QWidget):
         form = RegistrationForm(self.db, self)
         form.exec()
 
+
 def main():
-    app = QtWidgets.QApplication(sys.argv)
+    app = QApplication(sys.argv)
     db = CameraDB()
     mainWindow = MainWindow(db)
     mainWindow.show()
