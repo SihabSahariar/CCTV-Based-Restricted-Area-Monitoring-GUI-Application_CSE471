@@ -1,0 +1,43 @@
+
+QLabel {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 2px;
+  background:None;
+}
+
+
+
+*{
+font-family: century gothic;
+}
+QWidget#widget{
+background:#1d1d1d;
+}
+QPushButton{
+background-color: qlineargradient(spread:pad, x1:0.482, y1:0.3, x2:0.482224, y2:0, stop:0.15 rgba(0, 0, 0, 147), stop:1 rgba(255, 255, 255, 25));
+/*background:#2d89ef;*/
+border-radius:0px;
+color:white;
+font-weight:bold;
+}
+
+QPushButton:hover{
+border:1px solid rgba(45, 137, 239,100);
+border-radius:0px;
+color:white;
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+QTableWidget{
+  background:none;
+}

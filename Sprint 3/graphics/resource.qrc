@@ -1,0 +1,37 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/dome_camera_80px_32.png</file>
+    <file>icon/icon.png</file>
+    <file>icon/70a3ac38-14d1-4066-8d07-399567aca701.jpg</file>
+    <file>icon/ss.png</file>
+    <file>icon/main.JPG</file>
+    <file>icon/Media1.gif</file>
+    <file>icon/spash.JPG</file>
+    <file>icon/critical_thinking_64px.png</file>
+    <file>icon/Untitled-1.png</file>
+    <file>icon/dome_camera_80px.png</file>
+    <file>icon/ecg_48px.png</file>
+    <file>icon/home_100px.png</file>
+    <file>icon/live_video_on_48px.png</file>
+    <file>icon/multiple_devices_48px.png</file>
+    <file>icon/play_60px.png</file>
+    <file>icon/wall_mount_camera_64px.png</file>
+    <file>icon/workspace_100px.png</file>
+    <file>icon/rec_normal.ico</file>
+    <file>icon/rec_recording.ico</file>
+    <file>icon/storage.jpg</file>
+    <file>icon/Screenshot from 2022-11-17 02-20-28.png</file>
+    <file>icon/Screenshot from 2022-11-17 02-35-33.png</file>
+    <file>icon/Screenshot from 2022-11-17 02-14-10.png</file>
+    <file>icon/Screenshot from 2022-11-17 01-53-27.png</file>
+    <file>icon/Screenshot from 2022-11-17 01-53-15.png</file>
+    <file>icon/Screenshot from 2022-11-17 01-52-57.png</file>
+    <file>icon/Screenshot from 2022-11-17 01-52-40.png</file>
+    <file>icon/lpr.png</file>
+    <file>icon/face.png</file>
+    <file>icon/settings.png</file>
+    <file>icon/cross.png</file>
+    <file>icon/nocam.png</file>
+    <file>dome_camera_80px.ico</file>
+  </qresource>
+</RCC>
